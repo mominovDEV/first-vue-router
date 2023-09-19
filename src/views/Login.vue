@@ -16,8 +16,9 @@
         />
         <label for="password">Password</label>
       </div>
-      <div class="form-button" @click="closeForm">Go</div>
-    </div>
+      <router-link to="/products" class="btn btn-primary py-2 mt-3 mb-3"
+            >Go</router-link
+          >    </div>
   </div>
 </template>
   
